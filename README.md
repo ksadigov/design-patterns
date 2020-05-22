@@ -65,4 +65,12 @@ They give generalised solutions in the form of templates that may be applied to 
     This pattern decouples sender and receiver of a request based on type of request.
     In this pattern, normally each receiver contains reference to another receiver. 
     If one object cannot handle the request then it passes the same to the next receiver and so on.
+- **Command**<br/>
+- **Interpreter**<br/>
+- **Iterator**<br/>
+    This pattern is used to get a way to access the elements of a collection object in sequential manner without 
+    any need to know its underlying representation.
+- **State**<br/>
+    In State pattern a class behavior changes based on its state.
+    In State pattern, we create objects which represent various states and a context object whose behavior varies as its state object changes.
 

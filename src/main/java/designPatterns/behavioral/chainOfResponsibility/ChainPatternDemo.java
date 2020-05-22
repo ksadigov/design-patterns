@@ -1,5 +1,10 @@
 package designPatterns.behavioral.chainOfResponsibility;
 
+/**
+ * A way of passing a request between a chain of objects.
+ * Example: Exception handling in Java.
+ * java.util.logging.Logger#log()
+ */
 public class ChainPatternDemo {
     private static AbstractLogger getChainOfLoggers() {
 
