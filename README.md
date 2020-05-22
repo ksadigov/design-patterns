@@ -70,7 +70,21 @@ They give generalised solutions in the form of templates that may be applied to 
 - **Iterator**<br/>
     This pattern is used to get a way to access the elements of a collection object in sequential manner without 
     any need to know its underlying representation.
+- **Mediator**<br/>
+- **Memento**<br/>
+- **Observer**<br/>
+    Observer pattern is used when there is one-to-many relationship between objects such as if one object is modified,
+    its depenedent objects are to be notified automatically.
 - **State**<br/>
     In State pattern a class behavior changes based on its state.
     In State pattern, we create objects which represent various states and a context object whose behavior varies as its state object changes.
-
+- **Strategy**<br/>
+    In Strategy pattern, a class behavior or its algorithm can be changed at run time.
+    In Strategy pattern, we create objects which represent various strategies and a context object whose behavior 
+    varies as per its strategy object. 
+    The strategy object changes the executing algorithm of the context object.
+- **Template Method**<br/>
+- **Visitor**<br/>
+    In Visitor pattern, we use a visitor class which changes the executing algorithm of an element class. 
+    By this way, execution algorithm of element can vary as and when visitor varies. 
+    As per the pattern, element object has to accept the visitor object so that visitor object handles the operation on the element object.
