@@ -66,12 +66,23 @@ They give generalised solutions in the form of templates that may be applied to 
     In this pattern, normally each receiver contains reference to another receiver. 
     If one object cannot handle the request then it passes the same to the next receiver and so on.
 - **Command**<br/>
+    Command pattern is a data driven design pattern and falls under behavioral pattern category. 
+    A request is wrapped under an object as command and passed to invoker object. 
+    Invoker object looks for the appropriate object which can handle this command and passes the command to the 
+    corresponding object which executes the command.
 - **Interpreter**<br/>
+    Interpreter pattern provides a way to evaluate language grammar or expression.
+    This pattern involves implementing an expression interface which tells to interpret a particular context. 
+    This pattern is used in SQL parsing, symbol processing engine etc.
 - **Iterator**<br/>
     This pattern is used to get a way to access the elements of a collection object in sequential manner without 
     any need to know its underlying representation.
 - **Mediator**<br/>
+    Mediator pattern is used to reduce communication complexity between multiple objects or classes. 
+    This pattern provides a mediator class which normally handles all the communications between different classes and 
+    supports easy maintenance of the code by loose coupling.
 - **Memento**<br/>
+    Memento pattern is used to restore state of an object to a previous state.
 - **Observer**<br/>
     Observer pattern is used when there is one-to-many relationship between objects such as if one object is modified,
     its depenedent objects are to be notified automatically.
@@ -84,6 +95,9 @@ They give generalised solutions in the form of templates that may be applied to 
     varies as per its strategy object. 
     The strategy object changes the executing algorithm of the context object.
 - **Template Method**<br/>
+    In Template pattern, an abstract class exposes defined way(s)/template(s) to execute its methods. 
+    Its subclasses can override the method implementation as per need but the invocation is to be in the same way as defined 
+    by an abstract class. 
 - **Visitor**<br/>
     In Visitor pattern, we use a visitor class which changes the executing algorithm of an element class. 
     By this way, execution algorithm of element can vary as and when visitor varies. 
